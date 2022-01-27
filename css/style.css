@@ -1,0 +1,48 @@
+.blue {
+    height: 64px;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+    float: left;
+    display: block;
+}
+
+ul {
+    float: left;
+    text-decoration: none;
+}
+
+li,
+li a {
+    display: inline;
+    color: rgb(251, 114, 153);
+    font-size: large;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.mian {
+    background-image: url(https://yuanpi.xyz/img/bg.jpg);
+}
+
+.block {
+    padding-left: 5em;
+    display: inline-block;
+    padding-right: 5em;
+}
+
+a div {
+    padding-left: 4em;
+    line-height: 4em;
+    color: rgb(251, 114, 153);
+    font-weight: 600;
+}
+
+.end {
+    color: rgb(0, 161, 214);
+    font-weight: 600;
+    text-align: center;
+}
