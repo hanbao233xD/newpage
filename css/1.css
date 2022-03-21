@@ -1,0 +1,154 @@
+.tab {
+    /* 顶部导航/单层 */
+    position: absolute;
+    background: #FFFFFF;
+}
+
+.tabitem {
+    /* Frame 52 */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 751px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo {
+    /* logo */
+    position: static;
+    left: 20px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    text-indent: 2em;
+    font-family: 'Microsoft Yahei';
+}
+
+.items {
+    /* Frame 52 */
+    position: static;
+    left: 215px;
+    top: 12px;
+    width: 536px;
+    height: 40px;
+    display: flex;
+    padding: 0px;
+}
+
+.item1 {
+    /* 基础控件/导航菜单/未选 */
+    position: static;
+    left: 432px;
+    top: 0px;
+    width: 104px;
+    display: flex;
+    flex-direction: column;
+    padding: 9px 24px;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+.tabbg {
+    /* BG */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    background: #FFFFFF;
+    position: absolute;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Microsoft Yahei';
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+.main {
+    /* Rectangle 163 */
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    display: block;
+}
+
+.bg {
+    width: 1920px;
+    height: 950px;
+    background-image: url(/img/bg.jpg);
+    display: inline-block;
+}
+
+.black {
+    background: rgba(0, 0, 0, 0.4);
+    height: 950px;
+    width: 1920px;
+    display: inline-block;
+}
+
+.w {
+    color: #FFFFFF;
+}
+
+.big {
+    text-align: center;
+    padding: 250px;
+    font-size: 500%;
+    font-weight: lighter;
+    display: block;
+}
+
+.thin {
+    text-align: center;
+    display: block;
+    font-size: 50%;
+    font-weight: lighter;
+}
+
+.download {
+    /* 图标按钮/主要按钮 */
+    position: relative;
+    width: 150px;
+    height: 64px;
+    /* display: flex; */
+    display: inline;
+    align-items: center;
+    padding: 3px 30px;
+    border-radius: 3px;
+    background: #0052D9;
+    border: none;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: lighter;
+    right: 100px;
+}
+
+.button {
+    /* 虚框按钮//中尺寸 */
+    position: relative;
+    width: 150px;
+    height: 64px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 3px 30px;
+    border-radius: 3px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid #DCDCDC; */
+    border: none;
+    left: 100px;
+}
+
+.block {
+    width: 1000px;
+    height: 200px;
+    border: skyblue;
+    border-radius: 1px;
+}
