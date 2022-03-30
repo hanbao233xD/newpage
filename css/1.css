@@ -82,7 +82,7 @@ a {
 }
 
 .bg {
-    width: 1920px;
+    width: 100%;
     height: 950px;
     background-image: url(/img/bg.webp);
     display: inline-block;
