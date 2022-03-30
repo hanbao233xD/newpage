@@ -74,16 +74,15 @@ a {
 .main {
     /* Rectangle 163 */
     left: 0px;
-    top: 64px;
+    top: 0px;
     width: 1920px;
     display: block;
-    position: absolute;
 }
 
 .bg {
     width: 1920px;
     height: 950px;
-    background-image: url(/img/bg.jpg);
+    background-image: url(/img/bg.webp);
     display: inline-block;
 }
 
